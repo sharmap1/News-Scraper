@@ -6,8 +6,10 @@ This app allows users to view News articles, save their favorites onto another p
 
 News Scraper was built with...
 
+```
 - Front-End: HTML, CSS, Handlebars, Google Fonts, Font Awesome
 - Back-end: Node, Express, Mongo DB, and npm packages Cheerio and Axios
+```
 
 # Getting Started
 
@@ -23,7 +25,7 @@ In browser, navigate to http://localhost:3000
 
 ### Dependencies
 
-**_ You will need to npm install the following node modules:_**
+**You will need to npm install the following node modules:**
 
 ```
 - express
@@ -32,17 +34,20 @@ In browser, navigate to http://localhost:3000
 - body-parser
 - cheerio
 - request
-  Since I have included a package.json file, you do not need to install dependencies by name. Simply run the following in the root of your directory:
+  Since I have included a package.json file, you do not need to install dependencies by name.
+  Simply run the following in the root of your directory:
 - npm install
 ```
 
 ### Deployment
 
+```
 - Follow these instructions to deploy your app live on Heroku
 - Create a heroku app in your project directory
 - heroku create
 - Provision mLab MongoDB add-on for your project
 - heroku addons:create mongolab
 - Now your project should be successfully deployed on heroku.
+```
 
 # Screenshots
