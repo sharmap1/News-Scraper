@@ -2,6 +2,8 @@
 
 This app allows users to view News articles, save their favorites onto another page, and comment on their favorites. Each article displayed includes a headline which is also a link to the source article and a description that includes the date of publish. There is a 'remove' button next to each article on the saved articles page, but currently it does not work. The app uses Node/Express for the server and routing, MongoDB/Mongoose for the database and models, Handlebars for the layout and views, & Cheerio/Request for scraping the data.
 
+Heroku link: https://tranquil-wave-88574.herokuapp.com/articles
+
 ## Developer's Toolkit
 
 News Scraper was built with...
