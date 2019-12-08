@@ -30,8 +30,6 @@ In browser, navigate to http://localhost:3000
 * body-parser
 * cheerio
 * request
-  Since I have included a package.json file, you do not need to install dependencies by name. Simply run the following in the root of your directory:
-
 * npm install
 
 - Deployment
@@ -45,5 +43,3 @@ In browser, navigate to http://localhost:3000
 *
 * heroku addons:create mongolab
 * Now your project should be successfully deployed on heroku.
-
-# Screenshots

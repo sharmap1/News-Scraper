@@ -1,8 +1,11 @@
-//dependencies
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var logger = require("morgan");
 
+mongoose.set("useNewUrlParser", true);
+mongoose.set("useFindAndModify", false);
+mongoose.set("useCreateIndex", true);
+mongoose.set("useUnifiedTopology", true);
 //initialize Express app
 var express = require("express");
 var app = express();

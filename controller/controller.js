@@ -26,20 +26,6 @@ router.get("/scrape", function(req, res) {
       result.link = $(this)
         .children("a")
         .attr("href");
-      $("article").each(function(i, element) {
-        var title = $(element)
-          .children()
-          .text();
-        var link = $(element)
-          .find("a")
-          .attr("href");
-
-        // Save these results in an object that we'll push into the results array we defined earlier
-        results.push({
-          title: title,
-          link: link
-        });
-      });
 
       if (result.title !== "" && result.link !== "") {
         if (titlesArray.indexOf(result.title) == -1) {
